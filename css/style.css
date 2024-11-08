@@ -218,22 +218,23 @@ a:focus {
 }
 
 @media (min-width: 992px) {
+  @media (min-width: 992px) {
     .navbar {
-       position: absolute;
-    width: 100%;
-    top: 35px;
-    padding: 20px 60px;
-    background: rgba(0, 116, 19, 0.74) !important;
-    z-index: 9;
+        position: absolute;
+        width: 100%;
+        top: 35px;
+        padding: 20px 60px;
+        background: rgba(0, 116, 19, 0.74)!important;
+        z-index: 9;
     }
     
     .navbar.nav-sticky {
-         padding: 10px 60px;
-    background: #094924 !important;
+        padding: 10px 60px;
+        background: #094924 !important;
     }
     
     .page .navbar {
-         background: #092a49 !important;
+        background: #092a49 !important;
     }
     
     .navbar a.nav-link {
@@ -241,9 +242,8 @@ a:focus {
         font-size: 14px;
         letter-spacing: 1px;
         text-transform: uppercase;
-    }
+    }
 }
-
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
